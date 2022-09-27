@@ -1,8 +1,0 @@
-[Unit]
-After=network.target
-
-[Service]
-ExecStart=sed -i "s|\$LISTEN|$IP |g" /usr/bin/get_iplayer_web_pvr
-
-[Install]
-WantedBy=default.target
